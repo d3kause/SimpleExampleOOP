@@ -60,7 +60,7 @@ namespace Zachet.MyClasses
 			Console.WriteLine($"На карте появился монстр {GetType()}!");
 			Appear();
 		}
-		~Wolf() // Деструктор, сообщающий о уходе монстра
+		~Wolf() // Деструктор, сообщающий о уходе монстра 
 		{
 			Console.WriteLine($"{GetType()} {name} полностью ушел с игрового поля!");
 		}
